@@ -1,0 +1,6 @@
+{
+  "name": "CIRCULA - Circular Materials Exchange",
+  "description": "B2B Circular Materials Exchange and Carbon Intelligence Platform. Turn packaging waste into business value with smart matching, carbon tracking, and logistics optimization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

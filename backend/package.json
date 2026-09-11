@@ -1,0 +1,36 @@
+{
+  "name": "circula-backend",
+  "version": "1.0.0",
+  "description": "CIRCULA B2B Circular Materials Exchange Backend REST API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node tests/matching.test.js"
+  },
+  "keywords": [
+    "circular-economy",
+    "packaging-materials",
+    "b2b-exchange",
+    "express",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "CIRCULA",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "@google/genai": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
